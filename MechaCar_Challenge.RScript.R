@@ -8,3 +8,13 @@ model_mc <- lm(mpg~vehicle_length + vehicle_weight + spoiler_angle + ground_clea
 #generate summary statistics
 summary(model_mc)
 
+
+#Import and read the Suspension_Coil.csv file into a dataframe
+sc <- read.csv("Suspension_Coil.csv", header = TRUE, sep = ",", check.names=F, stringsAsFactors = F)
+sc
+
+total_summary <- sc %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
+total_summary
+
+#summarize(Mean_Mileage=mean(odometer), .groups = 'keep')
+?summarize()

@@ -19,7 +19,13 @@ Yes, because it provides an r-squared of 0.7149 which is significantly higher th
 
 ## Summary Statistics on Suspension Coils
 
+When looking at the summary data for our MechaCar suspension coils it seems the variance of the suspension coils of 62.29 is not exceeding the limit of 100 per square inch.
 
+![Total Summary](img/2.png)
+
+But when looking at the summary data now grouped by Lot, we see the data for Lot3 indicating a variance of 170.27 pounds per square inch, which is much higher than the limit specific in the design. Lots 1 and 2 provide a variance of 0.98 and 7.47 respectively, which is within the design limit.
+
+![Lot Summary](img/3.png)
 
 ## T-Tests on Suspension Coils
 
