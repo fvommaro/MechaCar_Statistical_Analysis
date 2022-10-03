@@ -58,7 +58,7 @@ An ANOVA test is a statistical test used to determine if there is a statisticall
 
 Another Key part of ANOVA is that it splits the independent variable into 2 or more groups. For example, one or more groups might be expected to influences the dependent variable while the other group is used as a control group, and is not expected to influence the dependent variable.
 
-The categories thar should be tested are: 
+The categories that should be tested are: 
 - city and highway fuel efficiency
 - maintenance cost
 - safety rating
